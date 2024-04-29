@@ -38,54 +38,59 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(178, 79);
+            label1.Location = new Point(156, 59);
             label1.Name = "label1";
-            label1.Size = new Size(78, 20);
+            label1.Size = new Size(62, 15);
             label1.TabIndex = 0;
             label1.Text = "UserName";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(197, 134);
+            label2.Location = new Point(172, 100);
             label2.Name = "label2";
-            label2.Size = new Size(24, 20);
+            label2.Size = new Size(18, 15);
             label2.TabIndex = 1;
             label2.Text = "ID";
             // 
             // UserName
             // 
-            UserName.Location = new Point(321, 72);
+            UserName.Location = new Point(281, 54);
+            UserName.Margin = new Padding(3, 2, 3, 2);
             UserName.Name = "UserName";
-            UserName.Size = new Size(125, 27);
+            UserName.Size = new Size(110, 23);
             UserName.TabIndex = 2;
             // 
             // ID
             // 
-            ID.Location = new Point(321, 127);
+            ID.Location = new Point(281, 95);
+            ID.Margin = new Padding(3, 2, 3, 2);
             ID.Name = "ID";
-            ID.Size = new Size(125, 27);
+            ID.Size = new Size(110, 23);
             ID.TabIndex = 3;
             // 
             // Login
             // 
-            Login.Location = new Point(336, 206);
+            Login.Location = new Point(294, 154);
+            Login.Margin = new Padding(3, 2, 3, 2);
             Login.Name = "Login";
-            Login.Size = new Size(94, 29);
+            Login.Size = new Size(82, 22);
             Login.TabIndex = 4;
             Login.Text = "Login";
             Login.UseVisualStyleBackColor = true;
+            Login.Click += Login_Click;
             // 
             // LMS
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(723, 453);
+            ClientSize = new Size(633, 340);
             Controls.Add(Login);
             Controls.Add(ID);
             Controls.Add(UserName);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "LMS";
             Text = "Library Management System ";
             ResumeLayout(false);
